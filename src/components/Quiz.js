@@ -3,7 +3,7 @@ import DataContext from '../context/dataContext';
 
 const Quiz = () => {
     const { showQuiz, question, quizs, checkAnswer, correctAnswer,
-            selectedAnswer,questionIndex, nextQuestion, showTheResult }  = useContext(DataContext);
+        selectedAnswer, questionIndex, nextQuestion, showTheResult } = useContext(DataContext);
 
     return (
         <section className="bg-dark text-white" style={{ display: `${showQuiz ? 'block' : 'none'}` }}>
@@ -29,9 +29,9 @@ const Quiz = () => {
 
                             {
                                 (questionIndex + 1) !== quizs.length ?
-                                    <button className='btn py-2 w-100 mt-3 bg-primary text-light fw-bold' onClick={nextQuestion} disabled={!selectedAnswer}>Next Question</button>
+                                    <button className='btn py-2 w-100 mt-3 bg-primary text-light fw-bold' onClick={nextQuestion} disabled={!selectedAnswer}>Question suivante</button>
                                     :
-                                    <button className='btn py-2 w-100 mt-3 bg-primary text-light fw-bold' onClick={showTheResult} disabled={!selectedAnswer}>Show Result</button>
+                                    <button className='btn py-2 w-100 mt-3 bg-primary text-light fw-bold' onClick={showTheResult} disabled={!selectedAnswer}>Afficher le résultat</button>
                             }
                         </div>
                     </div>
