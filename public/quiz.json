@@ -34,7 +34,7 @@
     },
     {
         "id": "04",
-        "question": "Quelle commande suivante est utilisée pour installer create-react-app ?",
+        "question": "Quelle commande suivante est utilisée pour creer une application react ?",
         "options": [
             "npm install -g create-react-app",
             "npx create-react-app my-app",
