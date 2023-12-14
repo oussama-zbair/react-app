@@ -26,17 +26,6 @@ cd react-app
 ```bash
 npm install
 ```
-If you encounter the 'react-scripts' not recognized error, run the following command:
-
-```bash
-npm install -g react-scripts
-```
-If you faced the 'Cannot find module 'react'' error, install the required packages:
-
-```bash
-npm install --save react react-dom @types/react @types/react-dom
-```
-
 4.**Start the development server:**
 ```bash
 npm start
