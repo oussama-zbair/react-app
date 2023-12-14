@@ -1,4 +1,4 @@
-# Book Store application with React.js
+# Quiz application with React.js
 
 
 ## Prerequisites
